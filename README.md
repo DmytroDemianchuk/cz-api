@@ -8,9 +8,9 @@
 to create people http://localhost:8080/api/people
 ```
 {
-    "name": "dima",
-    "phone_number": phone_number,
-    "birth_year": 
+    "name" : "Dima",
+    "phone_number" : "38098088829590",
+    "birth_year" : "2003"
 }
 ```
 ## Comands
