@@ -27,11 +27,11 @@ func main() {
 	fmt.Println("Server is getting started...")
 
 	// listening at port
-	log.Fatal(http.ListenAndServe(":8080",
+	log.Fatal(http.ListenAndServe(":80",
 		handlers.CORS(
 			handlers.AllowedOrigins([]string{"*"}),
 			handlers.AllowedMethods([]string{"POST"}),
 			handlers.AllowedHeaders([]string{"X-Request-With", "Content-Type", "Authorization"}),
 		)(r)))
-	fmt.Println("Listening at port 8080 ...")
+	fmt.Println("Listening at port 80 ...")
 }
