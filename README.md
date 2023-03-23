@@ -1,10 +1,11 @@
-# example to post api
+# Backend
 
 ## To start server
 - docker build -t cz-api:v0.1 .
 - docker run --name cz-api -p 80:80 cz-api:v0.1
 
-# _In Postman use http://localhost:8080/api/people_
+# _In Postman use_
+ http://localhost:8080/api/people_
 ```
 {
     "name": "dima",
