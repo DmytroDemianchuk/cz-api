@@ -5,7 +5,7 @@
 - docker run --name cz-api -p 80:80 cz-api:v0.1
 
 # _In Postman use_
- http://localhost:8080/api/people_
+to create people http://localhost:8080/api/people
 ```
 {
     "name": "dima",
