@@ -1,11 +1,13 @@
 # Backend
 
-## To start server
-- docker build -t cz-api:v0.1 .
-- docker run --name cz-api -p 80:80 cz-api:v0.1
+## Commands of application
+Use this command in the directory
+- `docker-compose up -d --build` - to run an application
+- `docker-compose down` - to stop an application
+
 
 # _In Postman use_
-to create people http://localhost:8080/api/people
+to create people http://localhost:80/api/people
 ```
 {
     "name" : "Dima",
@@ -14,11 +16,11 @@ to create people http://localhost:8080/api/people
 }
 ```
 ## Comands
-- http://localhost:8080/api/people - create people
-- http://localhost:8080/api/people/_id - get people
-- http://localhost:8080/api/peoples - get all peoples
-- http://localhost:8080/api/people/_id - delete people
-- http://localhost:8080/api/deleteall - delete all peoples
-- http://localhost:8080/api/people/_id - update people
+- http://localhost:80/api/people - create people
+- http://localhost:80/api/people/_id - get people
+- http://localhost:80/api/peoples - get all peoples
+- http://localhost:80/api/people/_id - delete people
+- http://localhost:80/api/deleteall - delete all peoples
+- http://localhost:80/api/people/_id - update people
 
 
